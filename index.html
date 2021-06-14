@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Bookmark landing page</title>
+
+    <!-- Font Rubik -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- slick slide -->
+    <link rel="stylesheet" href="vendor/slick/slick.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/style/style.css">
+
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <header id="header" class="site-header">
+            <div class="container">
+                <div class="site-header__inner">
+                    <div class="site-logo">
+                        <i class="fa fa-bookmark" aria-hidden="true"></i>
+                        <span>BOOKMARK</span>
+                    </div><!-- /.site-logo -->
+
+                    <nav class="nav">
+                        <div class="nav__content">
+                            <ul class="nav__list list-unstyled">
+                                <li class="nav__list-item"><a href="#" class="nav__link active">Features</a></li>
+                                <li class="nav__list-item"><a href="#" class="nav__link">Pricing</a></li>
+                                <li class="nav__list-item"><a href="#" class="nav__link">Contact</a></li>
+                            </ul><!-- /.nav__list -->
+                            <div class="site-header__btn">
+                                <a href="#" class="btn btn-secondary">Login</a>
+                            </div>
+                        </div>
+                        <div class="menu-btn">
+                            <div class="menu-line line1"></div>
+                            <div class="menu-line line2"></div>
+                            <div class="menu-line line3"></div>
+                        </div><!-- /.meni-btn -->
+                    </nav>
+                </div><!-- /.site-header__inner -->
+            </div>
+        </header><!-- /.site-header -->
+
+        <main class="main">
+            <section class="hero offset-bg">
+                <div class="container">
+                    <div class="row inner">
+                        <div class="col-lg-6 inner__item">
+                            <div class="inner__content">
+                                <h1 class="heading-primary">A Simple Bookmark Manager</h1>
+                                <p>A clean and simple interface to organize your favourite websites. Open a new
+                                    browser tab and see your sites load instantly. Try it for free.</p>
+                                <div class="hero__btn-group">
+                                    <a href="#" class="btn btn-primary">Get it on Chrome</a>
+                                    <a href="#" class="btn btn-light">Get it on firefox</a>
+                                </div>
+                            </div><!-- /.inner__content -->
+                        </div><!-- /.inner__item -->
+                        <div class="col-lg-6 inner__item">
+                            <figure class="inner__figure">
+                                <img src="assets/images/features-section-cover-img01.png" alt="Hero image">
+                            </figure>
+                        </div><!-- /.inner__item -->
+                    </div><!-- /.inner -->
+                </div>
+            </section><!-- /.hero -->
+            <section class="features offset-bg">
+                <div class="container">
+                    <div class="section-title">
+                        <h2 class="heading-secondary">Features</h2>
+                        <p>Our aim is to make it quick and easy for you to access your favourite websites.
+                            Your bookmarks sync between your devices so you can access them on the go.</p>
+                    </div><!-- /.section-title -->
+
+                    <div class="features__inner">
+                        <div class="features__inner-action">
+                            <a href="javascript:void(0);" data-slide="1" class="features__inner-title active">Simple
+                                Bookmarking</a>
+                            <a href="javascript:void(0);" data-slide="2" class="features__inner-title">Speedy
+                                Searching</a>
+                            <a href="javascript:void(0);" data-slide="3" class="features__inner-title">Easy Sharing</a>
+                        </div><!-- /.features__inner-action -->
+                        <div class="features__slider">
+                            <div class="slider-item-wrap">
+                                <div class="features__slider-item">
+                                    <div class="features__figure-wrap">
+                                        <figure class="features__slider-figure">
+                                            <img src="assets/images/features-section-cover-img01.png"
+                                                alt="Features cover image">
+                                        </figure>
+                                    </div><!-- /.features__figure-wrap -->
+                                    <div class="features__content-wrap">
+                                        <div class="features__slider-content">
+                                            <h2 class="heading-secondary">Bookmark in one click</h2>
+                                            <p>Organize your bookmarks however you like. Our simple drag-and-drop
+                                                interface
+                                                gives you complete control over how you manage your favourite sites.</p>
+                                            <a href="#" class="btn btn-primary">More Info</a>
+                                        </div><!-- /.features__slider-content -->
+                                    </div><!-- /.features__content-wrap -->
+                                </div><!-- /.features__slider-item -->
+                            </div><!-- /.slider-item-wrap -->
+                            <div class="slider-item-wrap">
+                                <div class="features__slider-item">
+                                    <div class="features__figure-wrap">
+                                        <figure class="features__slider-figure">
+                                            <img src="assets/images/features-section-cover-img02.png"
+                                                alt="Features cover image">
+                                        </figure>
+                                    </div><!-- /.features__figure-wrap -->
+                                    <div class="features__content-wrap">
+                                        <div class="features__slider-content">
+                                            <h2 class="heading-secondary">Intelligent search</h2>
+                                            <p>Our powerful search feature will help you find saved sites in no time at
+                                                all.
+                                                No need to trawl through all of your bookmarks.</p>
+                                            <a href="#" class="btn btn-primary">More Info</a>
+                                        </div><!-- /.features__slider-content -->
+                                    </div><!-- /.features__content-wrap -->
+                                </div><!-- /.features__slider-item -->
+                            </div><!-- /.slider-item-wrap -->
+                            <div class="slider-item-wrap">
+                                <div class="features__slider-item">
+                                    <div class="features__figure-wrap">
+                                        <figure class="features__slider-figure">
+                                            <img src="assets/images/features-section-cover-img03.png"
+                                                alt="Features cover image">
+                                        </figure>
+                                    </div><!-- /.features__figure-wrap -->
+                                    <div class="features__content-wrap">
+                                        <div class="features__slider-content">
+                                            <h2 class="heading-secondary">Share your bookmarks</h2>
+                                            <p>Easily share your bookmarks and collections with others. Create a
+                                                shareable
+                                                link that you can send at the click of a button.</p>
+                                            <a href="#" class="btn btn-primary">More Info</a>
+                                        </div><!-- /.features__slider-content -->
+                                    </div><!-- /.features__content-wrap -->
+                                </div><!-- /.features__slider-item -->
+                            </div><!-- /.slider-item-wrap -->
+                        </div><!-- /.features__slider -->
+                    </div><!-- /.features-slider -->
+                </div>
+            </section><!-- /.features -->
+            <section class="download">
+                <div class="container">
+                    <div class="section-title">
+                        <h2 class="heading-secondary">Download the extension</h2>
+                        <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve
+                            got a favourite you’d like us to prioritize.</p>
+                    </div><!-- /.section-title -->
+
+                    <div class="row inner">
+                        <div class="col-lg-4 col-sm-6 inner__item">
+                            <div class="inner__card text-center">
+                                <div class="inner__card-body">
+                                    <figure class="inner__figure">
+                                        <img src="assets/images/logo-chrome.svg" alt="Chrome logo">
+                                    </figure>
+                                    <h4 class="card-title">Add to Chrome</h4>
+                                    <p>Minimum version 62</p>
+                                </div><!-- /.inner__card-body -->
+                                <div class="inner__card-footer">
+                                    <a href="#" class="btn btn-primary">Add & Install Extension</a>
+                                </div><!-- /.inner__card-footer -->
+                            </div><!-- /.inner__card -->
+                        </div><!-- /.inner__item -->
+                        <div class="col-lg-4 col-sm-6 align-self-center inner__item">
+                            <div class="inner__card text-center">
+                                <div class="inner__card-body">
+                                    <figure class="inner__figure">
+                                        <img src="assets/images/logo-firefox.svg" alt="Chrome logo">
+                                    </figure>
+                                    <h4 class="card-title">Add to Chrome</h4>
+                                    <p>Minimum version 62</p>
+                                </div><!-- /.inner__card-body -->
+                                <div class="inner__card-footer">
+                                    <a href="#" class="btn btn-primary">Add & Install Extension</a>
+                                </div><!-- /.inner__card-footer -->
+                            </div><!-- /.inner__card -->
+                        </div><!-- /.inner__item -->
+                        <div class="col-lg-4 col-sm-6 align-self-end inner__item">
+                            <div class="inner__card text-center">
+                                <div class="inner__card-body">
+                                    <figure class="inner__figure">
+                                        <img src="assets/images/logo-opera.svg" alt="Chrome logo">
+                                    </figure>
+                                    <h4 class="card-title">Add to Chrome</h4>
+                                    <p>Minimum version 62</p>
+                                </div><!-- /.inner__card-body -->
+                                <div class="inner__card-footer">
+                                    <a href="#" class="btn btn-primary">Add & Install Extension</a>
+                                </div><!-- /.inner__card-footer -->
+                            </div><!-- /.inner__card -->
+                        </div><!-- /.inner__item -->
+                    </div><!-- /.inner -->
+                </div>
+            </section><!-- /.download -->
+            <section class="faq">
+                <div class="container">
+                    <div class="section-title">
+                        <h2 class="heading-secondary">Frequently Asked Questions</h2>
+                        <p>Here are some of our FAQs. If you have any other questions you’d like
+                            answered please feel free to email us.</p>
+                    </div><!-- /.section-title -->
+                    <div class="accordion-wrap">
+                        <div class="accordion">
+                            <a href="javascript:void(0);" class="accordion__title">
+                                <span>What is Bookmark?</span>
+                                <i class="fa fa-chevron-down arrow-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="accordion__body">
+                                <p>In general, no. The smallest group we normally take is six students. Under special
+                                    circumstances, we may be able to accommodate smaller groups. Give us a call.</p>
+                            </div><!-- /.accordion__body -->
+                        </div><!-- /.accordion -->
+                        <div class="accordion">
+                            <a href="javascript:void(0);" class="accordion__title">
+                                How can I request a new browser?
+                                <i class="fa fa-chevron-down arrow-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="accordion__body">
+                                <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non
+                                    ligula.
+                                    Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+                                    massa,
+                                    ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis
+                                    ultricies.
+                                    Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                            </div><!-- /.accordion__body -->
+                        </div><!-- /.accordion -->
+                        <div class="accordion">
+                            <a href="javascript:void(0);" class="accordion__title">
+                                <span>Is there a mobile app?</span>
+                                <i class="fa fa-chevron-down arrow-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="accordion__body">
+                                <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor,
+                                    ut condimentum
+                                    urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra
+                                    purus. Sed
+                                    sollicitudin ex et ultricies bibendum.</p>
+                            </div><!-- /.accordion__body -->
+                        </div><!-- /.accordion -->
+                        <div class="accordion">
+                            <a href="javascript:void(0);" class="accordion__title">
+                                <span>What about other Chromium browsers?</span>
+                                <i class="fa fa-chevron-down arrow-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="accordion__body">
+                                <p>Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod
+                                    dui. Aliquam
+                                    vitae neque eget nisl gravida pellentesque non ut velit.</p>
+                            </div><!-- /.accordion__body -->
+                        </div><!-- /.accordion -->
+                    </div><!-- /.accordion-wrap -->
+
+                    <div class="faq__btn text-center">
+                        <a href="#" class="btn btn-primary">More Info</a>
+                    </div>
+                </div>
+            </section><!-- /.faq -->
+        </main>
+
+        <footer class="site-footer">
+            <section class="site-footer__contact">
+                <div class="container">
+                    <div class="site-footer__form">
+                        <form method="POST" action="mailer/index.php" id="form-id-1" class="validate form">
+                            <div class="form-header">
+                                <span class="form-subtitle">35,000+ already joined</span>
+                                <h2 class="heading-secondary form-title">Stay up-to-date with what we’re doing</h2>
+                            </div><!-- /.form-header -->
+                            <div class="form-row">
+                                <div class="col-sm-9 form-section-0">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Enter your email address"
+                                            name="email-address" type="email" value="">
+                                        <div class="messages"></div>
+                                    </div><!-- /.form-group -->
+                                </div>
+                                <div class="col-sm-3 form-footer">
+                                    <button type="submit" class="submitButton btn btn-secondary">
+                                        <span class="spinner-border spinner-border loader" aria-hidden="true"
+                                            style="display: none"></span>
+                                        contact us
+                                    </button>
+                                </div><!-- /.form-footer -->
+                            </div>
+                        </form>
+                    </div><!-- /.site-footer__form -->
+                </div>
+            </section><!-- /.site-footer__contact -->
+
+            <div class="site-footer__bottom">
+                <div class="container">
+                    <div class="row inner">
+                        <div class="col-lg-3 col-md-4 logo-col">
+                            <div class="site-logo">
+                                <i class="fa fa-bookmark" aria-hidden="true"></i>
+                                <span>BOOKMARK</span>
+                            </div><!-- /.site-logo -->
+                        </div>
+                        <div class="col-lg-7 col-md-6 list-col">
+                            <ul class="inner__list list-unstyled">
+                                <li class=" inner__list-item"><a href="#" class="inner__link-item">Features</a></li>
+                                <li class="inner__list-item"><a href="#" class="inner__link-item">Pricing</a></li>
+                                <li class="inner__list-item"><a href="#" class="inner__link-item">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="inner__social-media">
+                                <a href="#" class="inner__media-link"><i class="fa fa-facebook-square"
+                                        aria-hidden="true"></i></a>
+                                <a href="#" class="inner__media-link"><i class="fa fa-twitter"
+                                        aria-hidden="true"></i></a>
+                            </div><!-- /.inner__media-link -->
+                        </div>
+                    </div><!-- /.inner -->
+                </div>
+            </div><!-- /.site-footer__bottom -->
+        </footer><!-- /.site-footer -->
+    </div>
+
+
+
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- slick slide -->
+    <script src="vendor/slick/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

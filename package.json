@@ -1,0 +1,17 @@
+{
+  "name": "lp-bookmark",
+  "version": "1.0.0",
+  "description": "Landing page for practice",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss assets/style/style.css -w"
+  },
+  "author": "Sumit",
+  "license": "ISC",
+  "dependencies": {
+    "save-dev": "0.0.1-security"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
